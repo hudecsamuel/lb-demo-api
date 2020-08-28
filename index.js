@@ -3,7 +3,8 @@ const app = new Koa();
 
 const port = process.env.PORT || 3000
 app.use(async ctx => {
-  ctx.body = 'Hello World';
+    ctx.res.setHeader('content-type', 'application/json')
+    ctx.body = JSON.stringify({result: 'Hello World'});
 });
 
 app.listen(port);
