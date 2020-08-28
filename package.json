@@ -1,0 +1,11 @@
+{
+  "name": "lb-demo-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hudecsamuel/lb-demo-api.git",
+  "author": "hudecsamuel <hudecsamuel@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.13.0"
+  }
+}
